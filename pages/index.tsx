@@ -1,15 +1,18 @@
 import * as React from "react";
-import { SideBar } from "../components/SideBar";
-import { css } from "@emotion/core";
+import SideBar from "../container/SideBar";
+import styled from "@emotion/styled";
+
 const Index = () => (
-  <div style={container}>
+  <Home>
     <SideBar />
     <p>Hello Next.js</p>
-  </div>
+  </Home>
 );
 
-const container = css`
+const Home = styled("div")`
+  height: 100vh;
   display: flex;
   flex-direction: row;
 `;
+
 export default Index;

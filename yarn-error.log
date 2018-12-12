@@ -1,30 +1,30 @@
 Arguments: 
-  /Users/yoshimotokoki/.nodenv/versions/9.11.2/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add emotion-react
+  /Users/yoshi/.ndenv/versions/8.11.3/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js add emotion-react
 
 PATH: 
-  /Users/yoshimotokoki/.nodenv/versions/9.11.2/bin:/usr/local/Cellar/nodenv/1.1.2/libexec:/Users/yoshimotokoki/.nodenv/shims:/Users/yoshimotokoki/.rbenv/shims:/usr/local/opt/mysql@5.6/bin:/Users/yoshimotokoki/.nodenv/bin:/Users/yoshimotokoki/.rbenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/bin
+  /Users/yoshi/.ndenv/versions/8.11.3/bin:/usr/local/Cellar/ndenv/0.4.0/libexec:/Users/yoshi/.ndenv/plugins/node-build/bin:/Users/yoshi/.pyenv/shims:/Users/yoshi/.pyenv/bin:/Users/yoshi/.pyenv/shims:/Users/yoshi/.pyenv/bin:/Users/yoshi/.rbenv/shims:/Users/yoshi/.pyenv/shims:/Users/yoshi/.pyenv/bin:/Users/yoshi/.pyenv/shims:/Users/yoshi/.pyenv/bin:/Users/yoshi/.ndenv/bin:/Users/yoshi/.ndenv/shims:/Users/yoshi/.ndenv/bin:/Users/yoshi/.pyenv/shims:/Users/yoshi/.yarn/bin:/Users/yoshi/.pyenv/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/bin/rails:/Users/yoshi/.rvm/bin:/Users/yoshi/.rvm/bin:/Users/yoshi/Library/Android/sdk/tools:/Users/yoshi/Library/Android/sdk/tools/bin:/Users/yoshi/Library/Android/sdk/platform-tools
 
 Yarn version: 
-  1.12.3
+  1.7.0
 
 Node version: 
-  9.11.2
+  8.11.3
 
 Platform: 
   darwin x64
 
 Trace: 
   Error: https://registry.yarnpkg.com/emotion-react: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:65894:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129018:22)
-      at Request.emit (events.js:180:13)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129990:10)
-      at Request.emit (events.js:180:13)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129912:12)
-      at Object.onceWrapper (events.js:272:13)
-      at IncomingMessage.emit (events.js:185:15)
-      at endReadableNT (_stream_readable.js:1106:12)
-      at process._tickCallback (internal/process/next_tick.js:178:19)
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:65656:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:134675:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:135658:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
 
 npm manifest: 
   {
